@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>
+        <label>Given Name
+            <input type="text" name="given_name" required>
+        </label>
+    </p>
+
+    <p>
+        <label>Family Name
+            <input type="text" name="family_name">
+        </label>
+    </p>
+
+    <p>
+        <label>Phone Number
+            <input type="text" name="phone_number">
+        </label>
+    </p>
+
+    <p>
+        <label>Email
+            <input type="email" name="email_address">
+        </label>
+    </p>
+
+    <p>
+        <button (click)='addContact("new Contact(given_name, family_name, phone_number, email_address)")'>Ajouter Contact</button>
+        <button>Enregistrer Liste</button>
+        <button>Charger Liste</button>
+    </p>
+
+</form>
+</body>
+</html>
